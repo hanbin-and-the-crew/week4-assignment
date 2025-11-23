@@ -8,13 +8,9 @@
 
 [문서 종류]
 
-  - ARCHITECTURE_DESIGN.md
-  - DEPLOYMENT_REPORT.md
+  - ARCHITECTURE_DESIGN.md (AWS Pricing Calculator 스크린샷, 네트워크 다이어그램)
+  - DEPLOYMENT_REPORT.md (12개 스크린샷 포함)
   - SECURITY_PRESENTATION.md
-  - AWS Pricing Calculator 스크린샷
-  - Integrated Testing.md
-  - 네트워크 다이어그램.md
-
 
 ---
    
