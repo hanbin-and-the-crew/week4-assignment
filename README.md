@@ -44,6 +44,7 @@ POST http://swiftlogix-alb-699706001.ap-northeast-2.elb.amazonaws.com/api/orders
 
 ### 📌 Headers
 Content-Type: application/json
+
 X-USER-ID: 00000000-0000-0000-0000-000000000001
 
 
@@ -92,6 +93,7 @@ X-USER-ID: 00000000-0000-0000-0000-000000000001
 GET http://swiftlogix-alb-699706001.ap-northeast-2.elb.amazonaws.com/api/orders
 
 ### 📌 Headers
+
 X-USER-ID: 00000000-0000-0000-0000-000000000001
 
 ### 📌 응답 예시 (성공)
