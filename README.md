@@ -24,13 +24,28 @@
 
 ### 5. API 호출 테스트 방식 
 
-## 주문 생성 API 테스트 (POST /api/orders)
+### 스웨거 
+
+| 항목 | 내용 |
+|------|-----|
+| **Base URL** | http://swiftlogix-alb-699706001.ap-northeast-2.elb.amazonaws.com |
+| **Order 생성 API** | `POST /api/orders` |
+| **Order 조회 API** | `GET /api/orders` |
+| **Content-Type** | `application/json` |
+| **Auth 필요 여부** | 없음 |
+| **X-USER-ID (임의 테스트용)** | `00000000-0000-0000-0000-000000000001` |
+
+## PostMan
+
+(POST /api/orders)
 
 ### 📌 요청 URL
 POST http://swiftlogix-alb-699706001.ap-northeast-2.elb.amazonaws.com/api/orders
 
 ### 📌 Headers
 Content-Type: application/json
+X-USER-ID: 00000000-0000-0000-0000-000000000001
+
 
 ### 📌 Request Body
 ```json
@@ -77,7 +92,7 @@ Content-Type: application/json
 GET http://swiftlogix-alb-699706001.ap-northeast-2.elb.amazonaws.com/api/orders
 
 ### 📌 Headers
-(설정 없음)
+X-USER-ID: 00000000-0000-0000-0000-000000000001
 
 ### 📌 응답 예시 (성공)
 ```json
@@ -108,5 +123,3 @@ GET http://swiftlogix-alb-699706001.ap-northeast-2.elb.amazonaws.com/api/orders
 ```
 
 응답 코드: **200 OK**
-
-]
